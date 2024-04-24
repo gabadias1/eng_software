@@ -7,13 +7,16 @@ Linguagem usada = `PYTHON`.
 
 ### Principios SOLID abordados: 
 
-`Princípio da Substituição de Liskov (LSP)`: Esse princípio, proposto por Barbara Liskov, afirma que objetos de uma classe base devem poder ser substituídos por objetos de suas classes derivadas sem afetar a corretude do programa. Em outras palavras, se S é um subtipo de T, então os objetos do tipo T podem ser substituídos por objetos do tipo S sem alterar as propriedades do programa.
+`Princípio da Substituição de Liskov (LSP)`: O Princípio de Substituição de Liskov, nomeado em homenagem a Barbara Liskov, define regras para redefinir métodos em subclasses, garantindo consistência no código.
 
-`Princípio Aberto/Fechado (OCP)`: Esse princípio, de Bertrand Meyer, diz que as entidades de software (classes, módulos, funções, etc.) devem estar abertas para extensão, mas fechadas para modificação. Isso significa que você pode estender o comportamento de uma classe sem precisar alterar seu código-fonte original, usando, por exemplo, herança, interfaces ou composição.
+`Princípio Aberto/Fechado (OCP)`: O Princípio Aberto/Fechado tem como objetivo a construção de classes flexíveis e extensíveis, capazes de se adaptarem a diversos cenários de uso, sem modificações no seu código fonte.
 
-`Princípio da Dependência (DIP)`: Este princípio sugere que módulos de alto nível não devem depender de módulos de baixo nível. Em vez disso, ambos devem depender de abstrações. Além disso, abstrações não devem depender de detalhes, mas sim, detalhes devem depender de abstrações. Isso promove a separação de preocupações e torna o código mais flexível e fácil de manter.
+`Princípio da Dependência (DIP)`: O Princípio da Dependência sugere que as classes clientes devem depender de abstrações, como interfaces, em vez de implementações concretas. Isso permite maior flexibilidade e resistência a mudanças, pois as implementações podem ser trocadas sem afetar os clientes. 
 
-`Princípio da Responsabilidade Única (SRP)`: Este princípio, proposto por Robert C. Martin, afirma que uma classe deve ter apenas uma razão para mudar. Em outras palavras, uma classe deve ter uma única responsabilidade ou tarefa. Isso ajuda a manter o código coeso, facilitando sua compreensão, manutenção e reutilização.
+`Princípio da Responsabilidade Única (SRP)`: O Princípio da Responsabilidade Única preconiza que cada classe deve ter uma única razão para mudar, promovendo coesão. Ele sugere a separação entre apresentação e regras de negócio para facilitar a manutenção e evolução do sistema. 
+
+## SOLID no Codigo
+
 
 ### Responsabilidade Única (SRP)
 
