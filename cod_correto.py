@@ -20,11 +20,11 @@ class Personagem:
 
 
 ###OPEN/CLOSE. É possivel implementar qualquer outro tipo de personagems/classe, sem fazer alterações que mudariam o codigo.
-###EXEMPLO:  class Ladrão(Personagem):
-###             def atk_especial(self):
-###                  return "Velocidade Aumentada"
-###              def caracteriscias(self):
-###                  return "Força:80\nMana:65\nVida:120"
+### EXEMPLO:  class Ladrão(Personagem):
+###              def atk_especial(self):
+###                   return "Velocidade Aumentada"
+###               def caracteriscias(self):
+###                   return "Força:80\nMana:65\nVida:120"
 
 
 class Mago(Personagem):
