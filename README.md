@@ -28,7 +28,7 @@ O sistema é aberto para extensão, mas fechado para modificação. Novos tipos 
 
 ### Liskov Substitution Principle (LSP)
 
-A classe `Personagem` faz com que tratemos todos os personagens do codigo de forma generica. Sendo que todos eles possuem `nome`, `classe`, `atk_especial` e suas `caracteristicas`
+A classe `Personagem` faz com que tratemos todos os personagens do codigo de forma generica. Sendo que todos eles possuem `nome`, `classe`, `atk_especial` e suas `caracteristicas`.
 
 ### Princípio da Inversão de Dependência (DIP)
 
