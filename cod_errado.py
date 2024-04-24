@@ -81,7 +81,7 @@ class Escolha:
 
 personagem = Escolha.escolher_personagem()
 print(personagem.Nomeper())
-print(personagem.Specialatk())
+print(personagem.atk_especial())
 print(personagem.caracteriscias())
 
 item_especial = Escolha.escolher_item_especial()
