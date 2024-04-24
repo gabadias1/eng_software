@@ -17,16 +17,16 @@ Linguagem usada = `PYTHON`.
 
 ### Responsabilidade Única (SRP)
 
-Cada classe no sistema possui uma única responsabilidade bem definida. Por exemplo, a classe `Personagem` é responsável por representar as características individuais de um personagem, enquanto a classe `Escolha` gerencia a seleção de personagens e itens especiais. Isso promove a coesão e facilita a manutenção do código.
+A classe `Personagem` é responsável por representar as características individuais de um personagem, enquanto a classe `Escolha` gerencia a seleção de personagens e itens especiais. Deixando as operações e `classes` com apenas uma responsabilidade. Isso promove a coesão e facilita a manutenção do código.
 
 ### Aberto/Fechado (OCP)
 
-O sistema é aberto para extensão, mas fechado para modificação. Novos tipos de personagens podem ser adicionados facilmente, criando subclasses de `Personagem`, sem a necessidade de alterar o código existente. Isso promove a extensibilidade do sistema e evita impactos indesejados em partes já funcionais do código.
+O sistema é aberto para extensão, mas fechado para modificação. Novos tipos de personagens podem ser adicionados facilmente, criando subclasses de `Personagem`, sem a necessidade de alterar o código existente.
 
 ### Liskov Substitution Principle (LSP)
 
-Embora não haja uma violação clara, o princípio de substituição de Liskov pode ser mais plenamente alcançado. Atualmente, a classe `Personagem` possui métodos condicionais que verificam o tipo de personagem para retornar informações específicas. Isso pode limitar a substituição livre por subtipos sem alterar o comportamento esperado. Uma abordagem mais adequada pode ser fornecer uma interface mais genérica para todas as subclasses de personagens.
+A classe `Personagem` faz com que tratemos todos os personagens do codigo de forma generica. Sendo que todos eles possuem `nome`, `classe`, `atk_especial` e suas `caracteristicas`
 
 ### Princípio da Inversão de Dependência (DIP)
 
-O código segue o princípio da inversão de dependência, pois as classes de alto nível, como `Escolha`, dependem de abstrações em vez de implementações concretas. Por exemplo, `Escolha` depende da classe abstrata `Personagem` e de suas subclasses para criar instâncias de personagens, em vez de depender diretamente das implementações específicas.
+Seguindo o princípio da inversão de dependência, a classes de alto nível, como `Escolha`, dependem de abstrações em vez de implementações concretas. Por exemplo, `Escolha` depende da classe abstrata `Personagem` e de suas subclasses para criar instâncias de personagens, em vez de depender diretamente das implementações específicas.
