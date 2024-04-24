@@ -1,4 +1,4 @@
-# Principios Solid
+# Principios SOLID
 Projeto de codigo focado em principios SOLID, feito para Materia Engenharia de Software da UTFPR-CM.
 
 O código é uma simulação de um jogo de RPG onde os jogadores podem escolher entre quatro classes de personagens: `Mago`, `Guerreiro`, `Clérigo` e `Arqueiro`. Cada classe possui características específicas, como ataques especiais e atributos de força, mana e vida.
