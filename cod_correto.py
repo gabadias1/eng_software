@@ -19,7 +19,7 @@ class Personagem:
         return "Minhas Caracteristicas são " + self.caracteriscias()
 
 
-###OPEN/CLOSE. É possivel implementar qualquer outri tipo de personagems/classe, sem fazer alterações que mudariam o codigo.
+###OPEN/CLOSE. É possivel implementar qualquer outro tipo de personagems/classe, sem fazer alterações que mudariam o codigo.
 ###EXEMPLO:  class Ladrão(Personagem):
 ###             def atk_especial(self):
 ###                  return "Velocidade Aumentada"
